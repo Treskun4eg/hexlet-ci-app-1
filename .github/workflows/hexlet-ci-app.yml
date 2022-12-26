@@ -8,6 +8,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: make setup
-        uses: make start
+      - uses: make start
       - run: make test
       - run: make lint
